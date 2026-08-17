@@ -53,21 +53,3 @@ emitted 48,781 UMI-positive pairs and 1,219 non-UMI pairs. The decompressed
 contents were identical for all four outputs (UMI R1/R2 and non-UMI R1/R2).
 The repository also contains a fixture for the production short-UMI,
 empty-post-UMI, and no-TSO behavior.
-
-## Intentional correctness hardening
-
-The public implementation preserves scientific behavior while replacing
-cluster-specific orchestration with explicit manifests and configuration
-files. It also validates paired FASTQ structure, fails on missing CB/UB tags,
-uses content fingerprints for restart decisions, writes deterministic gzip
-files, and refuses incomplete sample aggregation. These checks do not alter a
-valid production input but turn silent truncation, sample discovery, or stale
-output reuse into explicit errors.
-
-Two production edge cases are retained transparently. An all-UMI sample has an
-empty non-UMI split; the archived shell wrapper attempted to run Trim Galore on
-that empty pair, whereas this repository emits a valid empty trimmed pair so
-the sample can continue. The archived read-tracking script counted both raw R1
-and R2 despite labeling that metric as reads; raw QC therefore writes both
-`readtracking_production_legacy.tsv` and the R1-only
-`readtracking_corrected_r1.tsv` companion.
