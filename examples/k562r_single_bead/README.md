@@ -68,10 +68,8 @@ The synthetic miniature example remains the portable end-to-end CI test.
 
 ## Distribution scope
 
-The included reads are derived from a K562 cell-line experiment and contain no
-sample metadata beyond the generic K562-r condition and single-bead material
-type. The complete source FASTQs and original instrument identifiers are not
-included. Public release of derived study reads should remain consistent with
+The included reads are derived from a K562 cell-line experiment. 
+Public release of derived study reads should remain consistent with
 the manuscript's final data-sharing plan. The repository's MIT license covers
 the software; the authors should confirm the intended reuse terms for these
 study-derived FASTQ subsets before the public release.
