@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite the accompanying magniFIND-seq
+  manuscript and the archived software release used for your analysis.
+title: magniFIND-seq analysis pipeline
+type: software
+authors:
+  - given-names: Seung Won
+    family-names: Shin
+  - given-names: Sakshi
+    family-names: Shah
+  - given-names: Chenchen
+    family-names: Xia
+  - given-names: Atsuki
+    family-names: Kawamura
+  - given-names: Zhihui
+    family-names: Wang
+  - given-names: Yuanrong
+    family-names: Kang
+  - given-names: Nicole
+    family-names: Klatt
+  - given-names: Iain
+    family-names: Clark
+license: MIT
+abstract: >-
+  Portable workflows for magniFIND-seq gene-expression quantification,
+  raw read/UMI quality control, targeted and public-dataset BCR::ABL1 fusion
+  analysis, PBMC/K562 embedding, and bulk-to-single-cell expression concordance.
+keywords:
+  - magniFIND-seq
+  - single-cell RNA sequencing
+  - UMI
+  - fusion detection
+  - bioinformatics

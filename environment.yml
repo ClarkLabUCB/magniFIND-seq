@@ -1,0 +1,24 @@
+name: magnifind-seq-analysis
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - python=3.11
+  - numpy=1.26.4
+  - pandas=2.2.2
+  - scipy=1.13.1
+  - pysam=0.22.1
+  - xopen=2.0.2
+  # Version recorded in the magniFIND-seq production STAR logs.
+  - star=2.7.2a
+  - trim-galore=0.6.10
+  - samtools=1.20
+  - subread=2.0.6
+  - umi_tools=1.1.6
+  - r-base=4.3.3
+  - bioconductor-edger=3.42.4
+  - r-matrix=1.6_5
+  - r-seurat=5.0.3
+  - r-ggplot2=3.5.2
+  - r-ggrepel=0.9.6
