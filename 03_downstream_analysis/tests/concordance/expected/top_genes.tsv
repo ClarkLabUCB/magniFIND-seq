@@ -1,0 +1,5 @@
+gene	signature	high_condition
+GENEA1	condition_a_high	Resistant
+GENEA2	condition_a_high	Resistant
+GENEB1	condition_b_high	Sensitive
+GENEB2	condition_b_high	Sensitive

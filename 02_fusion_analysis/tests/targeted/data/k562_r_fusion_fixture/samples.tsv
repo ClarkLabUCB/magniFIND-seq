@@ -1,0 +1,4 @@
+sample	r1	r2
+k562_r_negative	fixtures_only_R1.fastq.gz	fixtures_only_R2.fastq.gz
+k562_r_candidate_1	fixtures_only_R1.fastq.gz	fixtures_only_R2.fastq.gz
+k562_r_candidate_2	fixtures_only_R1.fastq.gz	fixtures_only_R2.fastq.gz

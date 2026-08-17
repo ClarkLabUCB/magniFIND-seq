@@ -1,0 +1,2 @@
+sample	r1	r2
+k562_r_fastq_fixture	output/gene_expression/umi_trimmed/k562_r_fastq_fixture/k562_r_fastq_fixture_R1_umi_out_val_1.fq.gz	output/gene_expression/umi_trimmed/k562_r_fastq_fixture/k562_r_fastq_fixture_R2_umi_out_val_2.fq.gz

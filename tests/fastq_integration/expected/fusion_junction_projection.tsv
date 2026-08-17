@@ -1,0 +1,2 @@
+sample	report_order	bcr_chrom	bcr_pos	bcr_strand	abl1_chrom	abl1_pos	abl1_strand	UB
+k562_r_fastq_fixture	BCR_then_ABL1	chr22	221	+	chr9	180	+	GGGGGGGG

@@ -1,0 +1,9 @@
+gene_id	gene_name	gene_biotype	resistant_1_count	resistant_2_count	resistant_3_count	sensitive_1_count	sensitive_2_count	sensitive_3_count
+gene_a1	GENEA1	protein_coding	500	550	480	50	45	55
+gene_a2	GENEA2	protein_coding	250	270	240	30	25	35
+gene_b1	GENEB1	protein_coding	45	50	40	500	520	480
+gene_b2	GENEB2	protein_coding	25	30	20	250	260	240
+gene_stable1	GENESTABLE1	protein_coding	300	310	290	300	310	290
+gene_stable2	GENESTABLE2	protein_coding	100	110	90	100	110	90
+gene_mt	MT-FIXTURE	protein_coding	800	850	780	80	85	75
+gene_rpl	RPL-FIXTURE	protein_coding	70	75	65	700	710	690

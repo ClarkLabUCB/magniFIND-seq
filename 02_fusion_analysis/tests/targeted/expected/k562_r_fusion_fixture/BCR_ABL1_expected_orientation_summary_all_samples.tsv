@@ -1,0 +1,4 @@
+sample	mapping_status	chimeric_records_total	malformed_records	expected_orientation_read_records	unique_read_names	unique_UB	unique_junctions	expected_BCR_ABL1_candidate	expected_BCR_ABL1_candidate_call
+k562_r_negative	complete	0	0	0	0	0	0	0	not_detected
+k562_r_candidate_1	complete	58	0	58	58	2	3	1	candidate_ge_min_umi
+k562_r_candidate_2	complete	73	0	73	73	3	32	1	candidate_ge_min_umi

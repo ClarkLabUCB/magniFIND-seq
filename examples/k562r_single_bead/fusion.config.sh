@@ -1,0 +1,36 @@
+#!/usr/bin/env bash
+
+example_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+repo_root="$(cd "$example_dir/../.." && pwd)"
+reference_root="${REFERENCE_ROOT:-$repo_root/reference/GRCh38_GENCODEv44}"
+
+PROJECT_NAME="k562r_single_bead_example"
+SAMPLES_TSV="$example_dir/fusion_samples.tsv"
+OUT_DIR="$example_dir/output/fusion_detection"
+
+STAR="STAR"
+STAR_INDEX="$reference_root/star_index"
+THREADS="${EXAMPLE_THREADS:-8}"
+READ_FILES_COMMAND="gzip -cd"
+PREDECOMPRESS_FASTQ="${PREDECOMPRESS_FASTQ:-0}"
+
+FUSION_TWOPASS_MODE="None"
+CHIM_SEGMENT_MIN=12
+CHIM_JUNCTION_OVERHANG_MIN=12
+CHIM_MAIN_SEGMENT_MULT_NMAX=1
+TAG_BAM_WITH_CB_UB=1
+REQUIRE_CB_UB_TAGS=1
+
+BCR_CHROM="chr22"
+BCR_START=23179704
+BCR_END=23318037
+BCR_STRAND="+"
+ABL1_CHROM="chr9"
+ABL1_START=130713946
+ABL1_END=130887675
+ABL1_STRAND="+"
+
+MIN_UNIQUE_UMI=2
+REQUIRE_MAPPING_DONE=1
+FAIL_ON_MISSING_JUNCTIONS=1
+FAIL_ON_MALFORMED_RECORDS=1

@@ -1,0 +1,3 @@
+dataset	path	format	group	assay	feature_column
+PBMC	/path/to/pbmc_filtered_feature_bc_matrix	10x_dir	PBMC	.	.
+K562r	/path/to/k562r.seurat.rds	seurat_rds	K562-R	RNA	gene_name

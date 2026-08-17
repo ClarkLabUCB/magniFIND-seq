@@ -1,0 +1,5 @@
+sample	mapping_status	chimeric_records_total	malformed_records	expected_orientation_read_records	unique_read_names	unique_UB	unique_junctions	expected_BCR_ABL1_candidate	expected_BCR_ABL1_candidate_call
+forward	complete	1	0	1	1	1	1	1	candidate_low_umi
+reverse	complete	1	0	1	1	1	1	1	candidate_low_umi
+wrong_strand	complete	1	0	0	0	0	0	0	not_detected
+empty	complete	0	0	0	0	0	0	0	not_detected
