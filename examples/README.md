@@ -22,19 +22,3 @@ libraries. It provides realistic TSO/UMI structure and an optional complete
 mapping workflow using a separately downloaded GENCODE v44 GRCh38 reference.
 There is no BCR::ABL1-negative control, so its fusion output is exploratory and
 is not a sensitivity or specificity test.
-
-## Extending the example with study-like data
-
-A biologically representative example remains separate from the synthetic
-regression fixture. Additional inputs should be de-identified,
-publication-approved paired FASTQs generated with the same library structure,
-preferably including:
-
-- at least one expected BCR::ABL1-positive and one negative sample;
-- intact read-1 TSO plus 8-base UMI structure and the corresponding read 2;
-- a sample manifest containing non-identifying sample names; and
-- the exact reference assembly and GTF used for the study.
-
-Do not commit production FASTQs, BAMs, sample identifiers, or protected human
-metadata to this repository. Reference external files through a manifest or a
-GEO/SRA accession when one becomes available.
