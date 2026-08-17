@@ -116,7 +116,10 @@ clinical diagnoses. Bulk/single-cell correlations and the resistance module
 score are descriptive and may be confounded by study design.
 
 The included fixtures verify code operation but cannot reproduce all manuscript
-figures without the complete production inputs. 
+figures without the complete production inputs. The bulk and single-cell RNA sequencing 
+data (both raw and processed) generated in this study have been deposited in the 
+NCBI Gene Expression Omnibus (GEO) under accession numbers GSE342953 and GSE342951, 
+respectively, and will be made publicly available upon publication of the paper.
 
 Production-equivalent defaults are derived from the author-supplied scripts and
 retained run logs. Their immutable checksums and the recovered commands are in
