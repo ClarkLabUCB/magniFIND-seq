@@ -116,10 +116,7 @@ clinical diagnoses. Bulk/single-cell correlations and the resistance module
 score are descriptive and may be confounded by study design.
 
 The included fixtures verify code operation but cannot reproduce all manuscript
-figures without the complete production inputs. GEO/SRA identifiers and other
-facts unavailable before submission are recorded only in
-[`docs/information_to_complete.md`](docs/information_to_complete.md), not guessed
-in code or documentation.
+figures without the complete production inputs. 
 
 Production-equivalent defaults are derived from the author-supplied scripts and
 retained run logs. Their immutable checksums and the recovered commands are in
