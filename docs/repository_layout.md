@@ -33,9 +33,8 @@ magnifind-seq_analysis_pipeline/
 │   └── tests/
 ├── examples/
 │   ├── minimal_fastq/
-│   └── k562r_single_bead/
-├── validation/
-│   └── validation_walkthrough.ipynb
+│   ├── k562r_single_bead/
+│   └── README.md
 ├── tests/
 │   ├── README.md
 │   ├── run_lightweight_tests.sh
@@ -44,7 +43,9 @@ magnifind-seq_analysis_pipeline/
 │   └── fastq_integration/
 ├── scripts/
 ├── docs/
-├── .github/workflows/ci.yml
+├── CITATION.cff
+├── CONTRIBUTING.md
+├── LISENCE
 ├── environment.yml
 ├── environment-linux-64.lock
 ├── Makefile
@@ -54,7 +55,7 @@ magnifind-seq_analysis_pipeline/
 The three numbered directories are the scientific entry points. Each contains
 its own explanation, configuration templates, executable code, and focused
 fixtures. Root-level `tests/` checks behavior spanning more than one area;
-`validation/` is the optional human-facing dashboard for those same Make
+`examples/` is the optional human-facing dashboard for those same Make
 targets; `scripts/` contains shared provenance and validation helpers. One root
 environment covers all workflows. Generated outputs and production inputs are
 ignored by Git, apart from explicitly documented test fixtures.
